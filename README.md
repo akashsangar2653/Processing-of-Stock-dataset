@@ -24,3 +24,13 @@ Data Set named (Historical stock market data for current S&P 500 companies, from
 Performance Metric-
 
 RMSE
+
+
+What I have done in the project-
+
+-I have added systhetic data points in the dataset, so that rows and columns in dataset is increased. 
+-This dataset is treated as regression problem. 
+-Close prices column in only considered, and custum columns are created. Each row contains past 10 days closing price of the stock and past 2 days volume of the stock. 
+-Synthetic rows are added in the dataset. Between two consicutive rows one row is insert such that the new row is mean of the two consicutive cells in rows.
+-After that the model is trained using Linear regression, SVM, Random Forest and Ensemble model.
+-Linear regression gave the best results.
