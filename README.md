@@ -34,3 +34,6 @@ RMSE
 -Synthetic rows are added in the dataset. Between two consicutive rows one row is insert such that the new row is mean of the two consicutive cells in rows.
 -After that the model is trained using Linear regression, SVM, Random Forest and Ensemble model.
 -Linear regression gave the best results.
+
+# Explained in the link below--
+https://www.linkedin.com/feed/update/urn:li:activity:6957719674755121152?utm_source=linkedin_share&utm_medium=member_desktop_web
